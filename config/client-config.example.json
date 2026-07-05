@@ -1,0 +1,40 @@
+{
+  "_comment": "Copiez ce fichier en 'client-config.json' et remplissez-le pour chaque nouveau client. C'est le SEUL fichier à modifier (avec les CSV du dossier data/). Les scripts lisent ces valeurs.",
+
+  "client": {
+    "name": "NomDuClient",
+    "shortCode": "NDC"
+  },
+
+  "google": {
+    "primaryDomain": "client.ca",
+    "superAdmin": "migration@client.ca",
+    "gamPath": "C:\\GAM7\\gam.exe",
+    "_note": "superAdmin = compte super-administrateur Google utilisé par GAM et la connexion Migration Manager."
+  },
+
+  "microsoft365": {
+    "tenant": "nomtenant",
+    "adminUpn": "migration@nomtenant.onmicrosoft.com",
+    "pnpClientId": "00000000-0000-0000-0000-000000000000",
+    "serviceAccountEmail": "gam-project-xxxx@gam-project-xxxx.iam.gserviceaccount.com",
+    "serviceAccountKeyPath": "C:\\Secure\\client-sa-key.json",
+    "_note": "tenant = préfixe avant .onmicrosoft.com. pnpClientId = ID de l'app Entra enregistrée par client (voir METHODOLOGIE étape 2). serviceAccount = compte de service Google créé par 'gam create project'."
+  },
+
+  "sharepoint": {
+    "archiveSiteUrl": "https://nomtenant.sharepoint.com/sites/NDC-Archives",
+    "archiveSiteTitle": "Client - Archives Google",
+    "owner": "migration@nomtenant.onmicrosoft.com"
+  },
+
+  "migration": {
+    "targetDeliveryDomain": "nomtenant.onmicrosoft.com",
+    "formsDestinationDefault": "migration@client.ca",
+    "_note": "targetDeliveryDomain : domaine de routage M365 (généralement <tenant>.onmicrosoft.com). formsDestinationDefault : utilisateur licencié (avec OneDrive) où ranger les Google Forms migrés."
+  },
+
+  "dns": {
+    "provider": "GoDaddy"
+  }
+}

@@ -1,0 +1,31 @@
+# ─── Secrets & per-client config (NEVER commit) ───────────────
+config/client-config.json
+config/*.local.json
+*.key
+*.pem
+*sa-key*.json
+*service-account*.json
+*serviceaccount*.json
+oauth2.txt
+oauth2service.json
+client_secret*.json
+
+# ─── Client outputs / generated artifacts ─────────────────────
+reports/*
+!reports/_LISEZMOI.txt
+*.xlsx
+*.xlsm
+
+# Filled-in result data (keep only placeholder examples in git)
+# Uncomment if you fill these with real client data locally:
+# data/results-mail.csv
+# data/results-drive.csv
+
+# ─── OS / editor cruft ────────────────────────────────────────
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.log
+*.tmp
+.vscode/
+.idea/

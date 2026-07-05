@@ -1,0 +1,4 @@
+EmailAddress,DisplayName,Type,OneDrive
+employe1@client.ca,Prénom Nom,User,yes
+employe2@client.ca,Prénom Nom,User,yes
+info@client.ca,Info Client,Shared,no
