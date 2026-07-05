@@ -2,6 +2,10 @@
 
 > 🇬🇧 **English version:** [README.md](README.md)
 
+<p align="center">
+  <img src="docs/banner.png" alt="M365 Migration Toolkit — migrer Google Workspace vers Microsoft 365 avec les outils gratuits de Microsoft" width="860">
+</p>
+
 Boîte à outils **réutilisable** pour migrer un client de Google Workspace vers Microsoft 365 (mail + Drive), avec les **outils gratuits natifs de Microsoft**, tirée d'un mandat réel (OSBL). **Générique** : un seul fichier de config + des CSV à remplir par client ; les scripts en déduisent tout le reste.
 
 👉 **Playbook détaillé (quoi / pourquoi / comment / ce qui change par client) : [METHODOLOGIE.md](METHODOLOGIE.md).**

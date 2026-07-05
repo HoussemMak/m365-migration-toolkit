@@ -1,5 +1,9 @@
 # M365 Migration Toolkit — Google Workspace → Microsoft 365
 
+<p align="center">
+  <img src="docs/banner.png" alt="M365 Migration Toolkit — migrate Google Workspace to Microsoft 365 with Microsoft's free tools" width="860">
+</p>
+
 > Config-driven PowerShell toolkit to migrate a tenant from **Google Workspace** to **Microsoft 365** (mail + files) using **Microsoft's free native tools** — plus the hard-won gotchas nobody documents.
 
 <p align="left">
